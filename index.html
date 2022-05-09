@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>TyRotech</title>
+</head>
+
+<body>
+  <div class="bg">
+    <div class="dumy-container" >
+      <a href="">
+        <h4 class="ll">Contact Us</h4>
+      </a>
+      <a href="about.html">
+        <h4 class="bbhuv">About Us</h4>
+      </a>
+    </div>
+    <div class="hi">
+      <a href="index.html">
+        <h3 class="heading">TyRotech</h3>
+      </a>
+      <a href="index.html"><img src="logo.png" class="img1">
+        <a href="hardware.html">
+          <h4 class="okk">Hardware</h4>
+        </a>
+        <a href="software.html">
+          <h4 class="ok">Software</h4>
+        </a>
+    </div>
+    <!--image slider start-->
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="ggwp.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="1hard.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="1soft.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="4.jpg" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+
+    <div class="vl"></div>
+    <h1 class="mission">Mission-</h1>
+    <h3 class="thing">Our mission at TyRotech, <br>
+      is to help beginners, <br>
+      who are fascinated <br>
+      with subjects <br>
+      like coding or electronics <br>
+      to take off and do<br> what they
+      love the most with <br>
+      confidence and happiness<br>
+      and one day, revolutionize <br>
+      technology.<br></h3>
+    <a href="about.html" class="lm">Learn more</a>
+    <img src="logo.png" class="logo2">
+
+  </div>
+  <div class="third-container" 
+  <a href="soft"><img src="sog" al" class="pic">
+    <h3 class="text4">Software</h3>
+
+  </a>
+  <a href="hardware.html"><img src="software.jpg" alt="hardware img" class="pics">
+    <h3 class="text5">Hardware</h3>
+
+  </a>
+
+    <a href="software.html"><img src="soft.jpg" alt="software img" class="pic">
+      <h3 class="text4">Software</h3>
+
+    </a>
+  </div>
+
+
+    <h1 class="tush"> How our website works</h1>
+    <a href="aboutweb.html">
+      <h4 class="sike">Learn more</h4>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

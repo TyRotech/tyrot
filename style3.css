@@ -1,0 +1,95 @@
+.dumy-container {
+  font-family: Lacquer;
+  background-color: white;
+  position: absolute;
+  bottom: 700px;
+  left: 0px;
+  color: black;
+  width: 1471px;
+  height: 50px;
+  
+}
+
+
+.ll {
+  position: absolute;
+  bottom: -5px;
+  left: 1350px;
+  text-decoration: none;
+}
+
+.bbhuv {
+  position: absolute;
+  bottom: -5px;
+  left: 1270px;  
+  text-decoration: none;
+}
+
+.hi {
+  background-color: lightskyblue;
+  position: absolute;
+  bottom: 650px;
+  left: 0px;
+  color: white;
+  width: 1471px;
+  height: 50px;
+}
+
+
+
+.heading {
+  font-family: 'Roboto Mono', monospace, italic;
+  color: black;
+  position: absolute;
+  bottom: -5px;
+  left: 50px;
+}
+
+.img1 {
+  border: none;
+  border-radius: 400px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+}
+
+.okk {
+  position: absolute;
+  bottom: -5px;
+  left: 1270px;
+  color: black;
+}
+
+.ok {
+  position: absolute;
+  bottom: -5px;
+  left: 1350px;
+  color: black;
+}
+
+.proj {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: black;
+  position: absolute;
+  bottom: 560px;
+  left: 590px;
+  font-size: 3em;
+}
+
+.pro {
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  position: absolute;
+  bottom: 500px;
+  left: 50px;
+  font-size: 2em;
+}
+
+.soon {
+  color: black;
+  position: absolute;
+  bottom: 450px;
+  left: 50px;
+  font-size: 2em;
+
+}
